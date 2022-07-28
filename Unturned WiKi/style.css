@@ -1,0 +1,226 @@
+/* 这里放置的CSS将应用于所有皮肤 */
+:root {
+	--color0: #1A1128;
+	--color1: #0005;
+	--color2: #FFF;
+	--color3: #FFF8;
+	--color4: #FFF2;
+}
+@font-face{
+	font-family: "Harmony0S Sans SC";
+	src: url('https://cdn.jsdelivr.net/gh/ilunp/Unturned-BWiKi@master/HarmonyOS%20Sans/HarmonyOS_Sans_SC_Regular.ttf')
+}
+
+  /*wiki background/cursor - start */
+body {
+	font-family: "Harmony0S Sans SC" !important;
+	cursor: url(https://patchwiki.biligame.com/images/unturned/4/4c/dtby4rvay5etefsyqlvmo418mvx13kl.png), auto;
+	background: var(--color0) url(https://patchwiki.biligame.com/images/unturned/e/ea/9nxm7qmr22nh55acgqe7hujc3zkhpyv.png) no-repeat;
+	background-size: 100%;
+}
+body,html {
+	width:100%;
+	height:100%;
+	padding:0;
+	margin:0
+}
+.game-bg {
+	margin-top: 24vh;
+	background: var(--color1);
+	backdrop-filter: blur(30px) !important;
+	border-radius: 1rem;
+}
+.wiki-header,
+.bili-game-header-nav .bili-game-header-nav-bar,
+.footer-public {
+	background: transparent !important;
+	box-shadow: unset !important;
+}
+.bili-game-header-nav a {
+	color: var(--color2) !important;
+}
+  /*wiki background/cursor - end */
+
+ /*navbar/menu color - start */
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: var(--color2);
+}
+svg:not(:root) {
+	fill: var(--color2)
+}
+.wiki-header .wiki-nav-celling {
+	background: var(--color3);
+	border-radius: .5em;
+}
+.wiki-header .wiki-nav .celling-logo {
+	display: none !important;
+}
+.wiki-header .wiki-nav-celling .celling-box {
+	border-bottom: unset;
+}
+.menu-wrap .wiki-menu-li-1 {
+	background: transparent;
+}
+
+.menu-wrap .wiki-menu-li-1>a {
+	color: var(--color2);
+}
+
+.wiki-header .wiki-nav .nav-search-box:hover {
+	background-color: var(--color4) !important;
+}
+ /*navbar/menu color - end */
+ 
+ .firstHeadingTools {
+ 	padding: 0 20px;
+ 	border: unset;
+ 	background: var(--color4);
+ }
+ 
+ .vectorMenu h3 span {
+ 	color: var(--color2);
+ }
+ 
+ .mw-highlight pre {
+ 	background: var(--color1);
+ 	color: var(--color3);
+ }
+ 
+ .mw-editform #wpTextbox1 {
+ 	background: var(--color4);
+ 	border-radius: 1em 1em 0 0;
+ }
+
+ .ace-tm {
+ 	background-color: var(--color0);
+ 	color: var(--color2);
+ }
+ 
+ .ace-tm .ace_gutter-active-line,
+ .ace-tm .ace_gutter {
+ 	background: var(--color4) !important;
+ }
+ 
+ .codeEditor-status {
+ 	color: var(--color4);
+ 	background-color: var(--color4);
+ 	border: unset !important;
+ }
+ 
+ .wikiEditor-ui .wikiEditor-ui-top,
+ .wikiEditor-ui-toolbar .group,
+ .codeEditor-status-message {
+ 	border: unset !important;
+ }
+ 
+ .wikiEditor-ui .wikiEditor-ui-view {
+ 	border: unset !important;
+ }
+ 
+ .wikiEditor-ui-toolbar,
+ .wikiEditor-ui-toolbar .section-main {
+ 	background: var(--color4);
+ 	border-radius: 1em 1em 0 0;
+ }
+ 
+ .wikiEditor-ui-toolbar .tabs span.tab a {
+ 	color: var(--color3);
+ }
+ 
+ .wikiEditor-ui-toolbar .page-characters div span {
+ 	color: var(--color2);
+ }
+ .wikiEditor-ui-toolbar .page-characters div span:hover {
+ 	background-color: var(--color1);
+ }
+ 
+ .wikiEditor-ui-toolbar .booklet > .index > .current {
+ 	background-color: var(--color4);
+ }
+ 
+ .wikiEditor-ui-toolbar .page-table th {
+ 	color: var(--color2);
+ }
+ 
+ .wikiEditor-ui-toolbar .page-table td {
+ 	color: var(--color3);
+ }
+ 
+ #msupload-div {
+ 	background: var(--color4);
+ }
+ 
+ .CodeMirror {
+ 	background: var(--color0);
+ 	color: var(--color2);
+ }
+ 
+ .CodeMirror-gutters {
+ 	background-color: var(--color4);
+ }
+ 
+ .editOptions {
+ 	color: var(--color3) !important;
+ 	background-color: var(--color4);
+ 	border: unset !important;
+ 	border-radius: 0 0 1em 1em !important;
+ }
+ 
+ .oo-ui-textInputWidget .oo-ui-inputWidget-input {
+ 	background-color: var(--color4);
+ }
+ 
+ .oo-ui-buttonElement-framed > .oo-ui-buttonElement-button {
+ 	border-radius: 2em;
+ }
+ 
+ .wikitable {
+ 	color: var(--color3);
+ 	background-color: var(--color4);
+ }
+ 
+ .wikitable > tr > th, .wikitable > * > tr > th {
+ 	background-color: var(--color1);
+ }
+
+ /*display: none */
+.app-download-bar,
+.btn-open-app,
+.personal-notification,
+.about-site,
+.bui-sns-info,
+#bili-header-m .nav-wrapper-left li:not([report-id="playpage_main"]),
+#bili-header-m .nav-wrapper-right li[report-id="big_tab_click"] {
+	display: none !important;
+}
+
+ /*bili user tool */
+.user-follow-wrap {
+	margin: auto;
+	width: 100%;
+	background: var(--color4);
+	border: unset;
+}
+
+.user-follow-wrap .user-item-detail {
+	background-color: var(--color4);
+}
+
+.user-follow-wrap .user-item-detail .detail-des .des-name {
+	color: var(--color2);
+}
+
+.user-follow-wrap .user-item-detail .detail-follow-normal {
+	background: var(--color1);
+	border: unset;
+	border-radius: 2em;
+}
+
+.sidebar-card {
+	background: var(--color4);
+}
+
+.mw-body,
+h1,h2,h3,h4,h5,h6 {
+	color: var(--color2);
+}
